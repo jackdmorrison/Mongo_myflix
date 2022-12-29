@@ -3,6 +3,7 @@ docker stop restheart
 docker stop mongodb
 docker rm restheart
 docker rm mongodb
+
 git fetch 
 git pull
 mkdir data
