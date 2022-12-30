@@ -3,8 +3,6 @@ docker stop restheart
 docker stop mongodb
 docker rm restheart
 docker rm mongodb
-git fetch 
-git pull
 mkdir data
 docker run -d -e MONGO_INITDB_ROOT_USERNAME='restheart' -e MONGO_INITDB_ROOT_PASSWORD='R3ste4rt!'  --name mongodb -v "$PWD/data:/data/db" -v "$PWD/import:/home" mongo:3.6 --bind_ip_all --auth
 sleep 20
