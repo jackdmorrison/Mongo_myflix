@@ -1,7 +1,7 @@
 cd ./../..
 docker stop nodeserver 
 docker rm nodeserver 
-mv Mongo_myflix/Thumbnails/* myflix_react/src/Thumbnails
+cp Mongo_myflix/Thumbnails/* myflix_react/src/Thumbnails
 cat password.txt | docker login --username jackmoinc --password-stdin
 docker build -t jackmoinc/myflix_react:remote .
 docker push jackmoinc/myflix_react:remote
