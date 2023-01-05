@@ -1,1 +1,8 @@
-{"video":{"server":1,"ip":"34.242.141.138","Name":"Test","file":"Test.mp4","thumb":"Test.png","uuid":"380613d5-71b3-4f24-8a58-ca1a260b49d3","category":"cassandra"}}
+{"video":{"server":1,"ip":"34.242.141.138","Name":"Test","file":"Test.mp4","thumb":"Test.png","category":"long"}}
+{"video":{"server":1,"ip":"34.242.141.138","Name":"two","file":"two.mp4","thumb":"two.png","category":"short"}}
+{"video":{"server":1,"ip":"34.242.141.138","Name":"three","file":"three.mp4","thumb":"three.png","category":"medium"}}
+{"video":{"server":1,"ip":"34.242.141.138","Name":"four","file":"four.mp4","thumb":"four.png","category":"short"}}
+{"video":{"server":1,"ip":"34.250.160.158","Name":"five","file":"five.mp4","thumb":"five.png","category":"short"}}
+{"video":{"server":1,"ip":"34.250.160.158","Name":"six","file":"six.mp4","thumb":"six.png","category":"short"}}
+{"video":{"server":1,"ip":"63.32.169.232","Name":"seven","file":"seven.mp4","thumb":"seven.png","category":"short"}}
+{"video":{"server":1,"ip":"63.32.169.232","Name":"eight","file":"eight.mp4","thumb":"eight.png","category":"short"}}
